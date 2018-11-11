@@ -26,7 +26,7 @@ Using OSRM allowed me to find the most likely route for each bike trip. The next
 ### Creating frames
 With temporal data on bike locations, the next step was to put these locations onto a map. I used ggplot in R to create an image for every minute of the day, consisting of a yellow dot for the location of each bike:
 
-![Chicago bike location map](img/plot1.png)
+![Chicago bike location map](img/plot1.jpg)
 
 This ended up creating 1202 frames.
 
