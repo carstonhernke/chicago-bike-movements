@@ -1,7 +1,7 @@
 # chicago-bike-movements
 An animation of the movement of Divvy bikes throughout Chicago on June 19th, 2017
 
-[![Chicago Bike Movement Animation](*link*)](https://youtu.be/i_u7AcgEnqY)
+[![Chicago Bike Movement Animation](img/video_screenshot.png)](https://youtu.be/i_u7AcgEnqY)
 
 A visualization of the movement of Divvy bikes throughout Chicago over the course of a day (June 19th, 2017). The visualization is based on public data and leverages OSRM, Python, R, and ffmpeg.
 
@@ -26,7 +26,7 @@ Using OSRM allowed me to find the most likely route for each bike trip. The next
 ### Creating frames
 With temporal data on bike locations, the next step was to put these locations onto a map. I used ggplot in R to create an image for every minute of the day, consisting of a yellow dot for the location of each bike:
 
-*insert image*
+![Chicago bike location map](img/plot1.png)
 
 This ended up creating 1202 frames.
 
